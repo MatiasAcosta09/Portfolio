@@ -112,9 +112,9 @@ export const experience = [
 export const projects = [
 	{
 		name: "Portfolio",
-		desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-		github: "https://github.com/1hanzla100/developer-portfolio",
-		link: "https://developer-portfolio-1hanzla100.vercel.app/",
+		desc: "Software Developer Portfolio built with react.js, next.js and bootstrap.",
+		github: "https://github.com/MatiasAcosta09/Portfolio",
+		link: "https://portfolio-two-flax-46.vercel.app/",
 	},
 	{
 		name: "Gifs Finder",
