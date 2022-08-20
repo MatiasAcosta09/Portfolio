@@ -1,9 +1,8 @@
-import React from "react";
+import { Card, Col, Container, Row } from "reactstrap";
 
-import { Card, Col, Row, Container } from "reactstrap";
-
-import SocialLinks from "../components/SocialLinks";
 import Image from "next/image";
+import React from "react";
+import SocialLinks from "../components/SocialLinks";
 
 const GithubProfileCard = ({ prof }) => {
 	return (
@@ -20,10 +19,9 @@ const GithubProfileCard = ({ prof }) => {
 							/>
 						</Col>
 						<Col lg="8" className="order-lg-1">
-							<h2 className="text-white">Reach Out to me!</h2>
+							<h2 className="text-white">Contact me!</h2>
 							<p className="lead text-white mt-3">
-								DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY
-								INBOX IS OPEN FOR ALL
+								If you want contact me feel free to send me a inbox!
 							</p>
 							<p className="text-white mt-3">{prof.bio}</p>
 							<div className="my-3 icon-shape bg-gradient-white shadow rounded text-info">

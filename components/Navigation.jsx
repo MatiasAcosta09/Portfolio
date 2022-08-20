@@ -1,20 +1,26 @@
-import React, { useState, useEffect } from "react";
-// import { Link } from "react-router-dom";
-
-import { greetings, socialLinks } from "../portfolio";
-import Headroom from "headroom.js";
-import Link from "next/link";
 import {
-	UncontrolledCollapse,
-	NavbarBrand,
-	Navbar,
+	Col,
+	Container,
+	Nav,
 	NavItem,
 	NavLink,
-	Nav,
-	Container,
+	Navbar,
+	NavbarBrand,
 	Row,
-	Col,
+	UncontrolledCollapse,
 } from "reactstrap";
+import React, { useEffect, useState } from "react";
+import { greetings, socialLinks } from "../portfolio";
+
+import Headroom from "headroom.js";
+import Link from "next/link";
+
+// import { Link } from "react-router-dom";
+
+
+
+
+
 
 const Navigation = () => {
 	const [collapseClasses, setCollapseClasses] = useState("");
